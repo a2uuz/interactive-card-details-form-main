@@ -1,7 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap");
 
+// Variables
+
+$active-input-border: #6448fe to #600594;
+$input-errors: #ff5252;
+$White: #ffffff;
+$Light_grayish_violet: #dedddf;
+$Dark_grayish_violet: #8e8593;
+$Very_dark_violet: #21092f;
+
 body {
   font-family: "Space Grotesk", sans-serif;
+  font-size: 18px;
 }
 
 .container {
@@ -11,14 +21,31 @@ body {
   align-items: center;
   height: 100vh;
 }
+
+.layer2 {
+  height: 100vh;
+}
 .dark-rainbow {
   background-image: url("../images/bg-main-desktop.png");
   background-size: cover;
   color: white;
 }
-.cc{
-   display: flex;
+.cc {
+  display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: right;
+  text-align: left;
+}
+
+form {
+  .btn {
+    color: $White;
+    background-color: $Very_dark_violet;
+
+    &:hover {
+      color: $White;
+      background-color: $Very_dark_violet;
+    }
+  }
 }
