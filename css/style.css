@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap");
 body {
   font-family: "Space Grotesk", sans-serif;
+  font-size: 18px;
 }
 
 .container {
@@ -8,6 +9,10 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  height: 100vh;
+}
+
+.layer2 {
   height: 100vh;
 }
 
@@ -21,5 +26,15 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: right;
+  text-align: left;
+}
+
+form .btn {
+  color: #ffffff;
+  background-color: #21092f;
+}
+form .btn:hover {
+  color: #ffffff;
+  background-color: #21092f;
 }/*# sourceMappingURL=style.css.map */
