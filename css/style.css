@@ -37,4 +37,62 @@ form .btn {
 form .btn:hover {
   color: #ffffff;
   background-color: #21092f;
+}
+
+.front-card .card-img {
+  width: 445px;
+  height: 245px;
+  background-image: url("../images/bg-card-front.png");
+  border-radius: 1rem;
+  margin: 1rem;
+  position: relative;
+  right: 15rem;
+  top: 10rem;
+}
+.front-card .card-img img {
+  float: left;
+  padding: 1rem;
+}
+.front-card .inner-card {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.front-card .inner-card span {
+  color: #ffffff;
+  font-size: 2rem;
+}
+.front-card .inner-card .info {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 3rem;
+  color: #ffffff;
+  margin-bottom: 1rem;
+}
+
+.back-card {
+  width: 445px;
+  height: 245px;
+  background-image: url("../images/bg-card-back.png");
+  border-radius: 1rem;
+  margin: 1rem;
+  position: relative;
+  right: 27rem;
+  top: 27rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.back-card .text-box {
+  font-size: 1.5rem;
+  text-align: left;
+  color: #ffffff;
+  position: relative;
+  left: 9.5rem;
 }/*# sourceMappingURL=style.css.map */
